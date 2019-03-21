@@ -3,7 +3,7 @@ services:
   database:
     image: mysql:5.7
     restart: always
-    container_name: sql-training-db
+    container_name: sql-training-db-employees
     environment:
       MYSQL_DATABASE: 'employees'
       # So you don't have to use root, but you can if you like
